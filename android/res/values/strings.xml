@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSCI E-34 Bar Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">850722514947252</string>
+    <string name="title_activity_login">Login</string>
+    <string name="description">As part of CSCI E-34, UX Engineering, we must back up assumptions with real numbers - and thats where your help comes in! The aim of this app is to find how long it takes you to get served a beer based on how many bar tenders are working and how many people are at the bar currently.</string>
+    <string name="begin">Begin!</string>
+    <string name="title_activity_first">Question 1</string>
+    <string name="next_button">Next Question</string>
+    <string name="first_number">Question 1 of 3</string>
+    <string name="first_question">How many bar tenders are behind the bar?</string>
+    <string name="second_number">Question 2 of 3</string>
+    <string name="second_question">How many customers are at the bar?</string>
+    <string name="third_number">Question 3 of 3</string>
+    <string name="third_question">Time! Please tap the start button when you get to the bar and the stop button once you get your drink.</string>
+    <string name="title_activity_second">Question 2</string>
+    <string name="title_activity_third">Question 3</string>
+    <string name="start">Start Timer</string>
+    <string name="stop">Stop Timer</string>
+    <string name="submit">Submit</string>
+    <string name="thanks_header">Thanks!</string>
+    <string name="thanks">Cheers for providing these stats!</string>
+    <string name="title_activity_submit">Upload</string>
+
+</resources>

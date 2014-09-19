@@ -1,0 +1,31 @@
+# Logfile created on 2014-09-17 22:56:15 -0400 by logger.rb/36483
+[09/17/14 22:56:15 -0400 localhost (27439)] INFO : No dispatcher detected.
+[09/17/14 22:56:15 -0400 localhost (27439)] INFO : Application: Demo
+[09/17/14 22:56:15 -0400 localhost (27439)] WARN : Agent configured not to send data in this environment.
+[09/17/14 22:56:15 -0400 localhost (27439)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 27439
+[09/17/14 22:56:15 -0400 localhost (27439)] INFO : Agent Log at /Users/johndoyle/Development/bar-ut/log/newrelic_agent.log
+[09/17/14 23:02:27 -0400 localhost (27592)] INFO : No dispatcher detected.
+[09/17/14 23:02:27 -0400 localhost (27592)] INFO : Application: Demo
+[09/17/14 23:02:27 -0400 localhost (27592)] WARN : Agent configured not to send data in this environment.
+[09/17/14 23:02:27 -0400 localhost (27592)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 27592
+[09/17/14 23:02:27 -0400 localhost (27592)] INFO : Agent Log at /Users/johndoyle/Development/bar-ut/log/newrelic_agent.log
+[09/17/14 23:03:21 -0400 localhost (27604)] INFO : No dispatcher detected.
+[09/17/14 23:03:21 -0400 localhost (27604)] INFO : Application: Demo
+[09/17/14 23:03:21 -0400 localhost (27604)] WARN : Agent configured not to send data in this environment.
+[09/17/14 23:03:21 -0400 localhost (27604)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 27604
+[09/17/14 23:03:21 -0400 localhost (27604)] INFO : Agent Log at /Users/johndoyle/Development/bar-ut/log/newrelic_agent.log
+[09/17/14 23:06:38 -0400 localhost (27630)] INFO : No dispatcher detected.
+[09/17/14 23:06:38 -0400 localhost (27630)] INFO : Application: Demo
+[09/17/14 23:06:38 -0400 localhost (27630)] WARN : Agent configured not to send data in this environment.
+[09/17/14 23:06:38 -0400 localhost (27630)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 27630
+[09/17/14 23:06:38 -0400 localhost (27630)] INFO : Agent Log at /Users/johndoyle/Development/bar-ut/log/newrelic_agent.log
+[09/17/14 23:09:27 -0400 localhost (27651)] INFO : No dispatcher detected.
+[09/17/14 23:09:27 -0400 localhost (27651)] INFO : Application: Demo
+[09/17/14 23:09:27 -0400 localhost (27651)] WARN : Agent configured not to send data in this environment.
+[09/17/14 23:09:27 -0400 localhost (27651)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 27651
+[09/17/14 23:09:27 -0400 localhost (27651)] INFO : Agent Log at /Users/johndoyle/Development/bar-ut/log/newrelic_agent.log
+[09/19/14 01:41:00 -0400 localhost (1389)] INFO : No dispatcher detected.
+[09/19/14 01:41:00 -0400 localhost (1389)] INFO : Application: Demo
+[09/19/14 01:41:00 -0400 localhost (1389)] WARN : Agent configured not to send data in this environment.
+[09/19/14 01:41:00 -0400 localhost (1389)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 1389
+[09/19/14 01:41:00 -0400 localhost (1389)] INFO : Agent Log at /Users/johndoyle/Development/bar-ut/log/newrelic_agent.log
