@@ -8,32 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ie.johndoyle.barinfo.FirstActivity" >
 
-    <NumberPicker
-        android:id="@+id/numberPicker1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/first_number"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:text="@string/first_question" />
-
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -43,5 +17,48 @@
         android:layout_marginBottom="72dp"
         android:onClick="secondQuestion"
         android:text="@string/next_button" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numberPicker1"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="@string/first_question" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/NumberPicker01"
+        android:layout_alignParentRight="true"
+        android:text="@string/second_question" />
+
+    <NumberPicker
+        android:id="@+id/NumberPicker01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/numberPicker1"
+        android:layout_marginRight="42dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_alignRight="@+id/button1"
+        android:layout_marginBottom="31dp"
+        android:layout_marginRight="14dp"
+        android:text="@string/first_number"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

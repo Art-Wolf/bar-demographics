@@ -11,10 +11,12 @@ import android.widget.NumberPicker;
 public class FirstActivity extends ActionBarActivity {
 
 	public final static String FIRST_QUESTION = "ie.johndoyle.barinfo.FIRST_QUESTION";
+	public final static String SECOND_QUESTION = "ie.johndoyle.barinfo.SECOND_QUESTION";
 	public String userName = "";
 	public String gender = "";
 	public String birthday = "";
 	public String firstQuestion = "";
+	public String secondQuestion = "";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +31,14 @@ public class FirstActivity extends ActionBarActivity {
 
 		NumberPicker numberPicker = (NumberPicker) findViewById(R.id.numberPicker1);
         numberPicker.setMaxValue(10);     
-        numberPicker.setMinValue(1);
+        numberPicker.setMinValue(0);
         numberPicker.setWrapSelectorWheel(false);
+        
+        NumberPicker customerPicker = (NumberPicker) findViewById(R.id.NumberPicker01);
+        customerPicker.setMaxValue(100);     
+        customerPicker.setMinValue(0);
+        customerPicker.setWrapSelectorWheel(false);
+        
 	}
 
 	@Override
@@ -54,14 +62,17 @@ public class FirstActivity extends ActionBarActivity {
 	
 	public void secondQuestion(View view) {
 	    // Do something in response to button
-		Intent intent = new Intent(this, SecondActivity.class);
+		Intent intent = new Intent(this, ThirdActivity.class);
 		intent.putExtra(LoginActivity.USER_NAME, userName);
 		intent.putExtra(LoginActivity.GENDER, gender);
 		intent.putExtra(LoginActivity.BIRTHDAY, birthday);
 		NumberPicker numberPicker = (NumberPicker) findViewById(R.id.numberPicker1);
-		
+		NumberPicker customerPicker = (NumberPicker) findViewById(R.id.NumberPicker01);
 		firstQuestion = "" + numberPicker.getValue();
+		secondQuestion = "" + customerPicker.getValue();
+		
 		intent.putExtra(FIRST_QUESTION, firstQuestion);
+		intent.putExtra(SECOND_QUESTION, secondQuestion);
 		startActivity(intent);
 	}
 }

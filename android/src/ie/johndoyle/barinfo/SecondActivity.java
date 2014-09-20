@@ -30,7 +30,7 @@ public class SecondActivity extends ActionBarActivity {
 
 		NumberPicker numberPicker = (NumberPicker) findViewById(R.id.numberPicker1);
         numberPicker.setMaxValue(100);     
-        numberPicker.setMinValue(1);
+        numberPicker.setMinValue(0);
         numberPicker.setWrapSelectorWheel(false);
 	}
 

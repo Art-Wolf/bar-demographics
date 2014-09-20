@@ -10,10 +10,10 @@
     <string name="begin">Begin!</string>
     <string name="title_activity_first">Question 1</string>
     <string name="next_button">Next Question</string>
-    <string name="first_number">Question 1 of 3</string>
-    <string name="first_question">How many bar tenders are behind the bar?</string>
-    <string name="second_number">Question 2 of 3</string>
-    <string name="second_question">How many customers are at the bar?</string>
+    <string name="first_number">Question 1 of 2</string>
+    <string name="first_question"># bar\ntenders?</string>
+    <string name="second_number">Question 2 of 2</string>
+    <string name="second_question"># customers\nwaiting?</string>
     <string name="third_number">Question 3 of 3</string>
     <string name="third_question">Time! Please tap the start button when you get to the bar and the stop button once you get your drink.</string>
     <string name="title_activity_second">Question 2</string>

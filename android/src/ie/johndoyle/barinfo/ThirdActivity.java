@@ -30,7 +30,7 @@ public class ThirdActivity extends ActionBarActivity {
         gender = intent.getStringExtra(LoginActivity.GENDER);
         birthday = intent.getStringExtra(LoginActivity.BIRTHDAY);
         firstQuestion = intent.getStringExtra(FirstActivity.FIRST_QUESTION);
-        secondQuestion = intent.getStringExtra(SecondActivity.SECOND_QUESTION);
+        secondQuestion = intent.getStringExtra(FirstActivity.SECOND_QUESTION);
         
 		setContentView(R.layout.activity_third);
 		
@@ -80,7 +80,6 @@ public class ThirdActivity extends ActionBarActivity {
 		intent.putExtra(FirstActivity.FIRST_QUESTION , firstQuestion);
 		intent.putExtra(SecondActivity.SECOND_QUESTION, secondQuestion);
 		
-		thirdQuestion = "" + chronometer.toString();
 		intent.putExtra(THIRD_QUESTION, thirdQuestion);
 		startActivity(intent);
 	}
